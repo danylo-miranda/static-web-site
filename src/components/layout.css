@@ -33,6 +33,9 @@ html {
   line-height: var(--line-height-normal);
   overflow-y: scroll;
 }
+main {
+  margin-top: 3%;
+}
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;

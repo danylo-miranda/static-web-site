@@ -1,3 +1,64 @@
+.header {
+  background-color: #2980b9;  /* Azul AdRoll */
+  color: white;               /* Texto branco */
+  padding: 1%;              /* Espaçamento interno */
+  display: flex;             /* Layout flexbox */
+  align-items: center;       /* Alinhamento vertical ao centro */
+  justify-content: space-between; /* Distribui os elementos horizontalmente */
+  position: fixed;           /* Fixa o header no topo */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100; /* Garante que o header fique por cima do conteúdo */
+}
+
+/* Logo */
+.logo {
+  font-size: var(--font-lg);   /* Aumenta o tamanho da fonte do título */
+  font-weight: bold;        /* Texto em negrito */
+  text-decoration: none;   /* Remove o sublinhado do link */
+}
+
+.logo img {
+  height: 50px;            /* Altura da logo (ajuste conforme necessário) */
+  margin-right: 20px;      /* Adiciona um espaçamento à direita da logo */
+}
+
+/* Menu de navegação */
+nav ul {
+  list-style: none;         /* Remove os marcadores da lista */
+  margin: 0;
+  padding: 0;
+  display: flex;           /* Alinha os itens do menu horizontalmente */
+}
+
+nav li {
+  margin: 0 15px;          /* Espaçamento entre os itens do menu */
+}
+
+nav a {
+  color: rgb(0, 0, 0);             /* Cor do texto branca */
+  text-decoration: none;  /* Remove o sublinhado dos links */
+  font-weight: bold;       /* Texto em negrito */
+  font-size: var(--font-md); /* Aumenta o tamanho da fonte dos links */
+  transition: color 0.3s; /* Adiciona uma transição suave na cor do link */
+}
+
+nav a:hover {
+  color: #f0f0f0;         /* Cor do link ao passar o mouse */
+}
+
+.logo {
+  font-size: var(--font-lg);   /* Aumenta o tamanho da fonte do título */
+  font-weight: bold;        /* Texto em negrito */
+  text-decoration: none;   /* Remove o sublinhado do link */
+}
+
+.logo img {
+  height: 50px;            /* Altura da logo (ajuste conforme necessário) */
+  margin-right: 20px;      /* Adiciona um espaçamento à direita da logo */
+}
+
 .list {
   display: grid;
   margin: 0;
@@ -46,6 +107,7 @@
 
 .textCenter {
   text-align: center;
+  margin-top: 10%;
 }
 
 .intro {
